@@ -78,6 +78,7 @@ aidl_interface {
     ],
 }
 
+/*
 aidl_interface {
     name: "vendor.oplus.hardware.camera_rfi",
     system_ext_specific: true,
@@ -110,6 +111,7 @@ aidl_interface {
         },
     ],
 }
+*/
 
 aidl_interface {
     name: "vendor.oplus.hardware.cameraextension",
@@ -136,6 +138,7 @@ aidl_interface {
     ],
 }
 
+/*
 aidl_interface {
     name: "vendor.oplus.hardware.cammidasservice",
     system_ext_specific: true,
@@ -160,6 +163,7 @@ aidl_interface {
         },
     ],
 }
+*/
 
 aidl_interface {
     name: "vendor.oplus.hardware.charger",
@@ -870,11 +874,13 @@ cc_library_shared {
     whole_static_libs: ["vendor.oplus.hardware.cameraextension-V1-ndk"],
 }
 
+/*
 cc_library_shared {
     name: "vendor.oplus.hardware.cammidasservice-V1-ndk_platform",
     defaults: ["vendor.oplus.hardware.ndk_platform_shim_defaults"],
     whole_static_libs: ["vendor.oplus.hardware.cammidasservice-V1-ndk"],
 }
+*/
 
 cc_library_shared {
     name: "vendor.oplus.hardware.commondcs-V1-ndk_platform",
